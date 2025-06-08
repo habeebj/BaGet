@@ -86,6 +86,7 @@ jobs:
         context: .
         push: true
         file: ./src/BaGet/Dockerfile
+        platforms: linux/amd64,linux/arm64
         tags: |
           hoyme/baget:latest
           hoyme/baget:${{ github.event.inputs.releaseVersion }}
