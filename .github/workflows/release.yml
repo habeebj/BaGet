@@ -83,8 +83,9 @@ jobs:
     - name: Build and push Docker image
       uses: docker/build-push-action@v2
       with:
-        context: ./src/BaGet
+        context: .
         push: true
+        file: ./src/BaGet/Dockerfile
         tags: |
           hoyme/baget:latest
           hoyme/baget:${{ github.event.inputs.releaseVersion }}
