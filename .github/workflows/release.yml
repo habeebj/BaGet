@@ -83,7 +83,7 @@ jobs:
     - name: Build and push Docker image
       uses: docker/build-push-action@v2
       with:
-        context: .
+        context: ./src/BaGet
         push: true
         tags: |
           hoyme/baget:latest
