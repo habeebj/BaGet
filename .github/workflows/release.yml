@@ -86,5 +86,5 @@ jobs:
         context: .
         push: true
         tags: |
-          ${{ secrets.DOCKERHUB_USERNAME }}/baget:latest
-          ${{ secrets.DOCKERHUB_USERNAME }}/baget:${{ github.event.inputs.releaseVersion }}
+          hoyme/baget:latest
+          hoyme/baget:${{ github.event.inputs.releaseVersion }}
