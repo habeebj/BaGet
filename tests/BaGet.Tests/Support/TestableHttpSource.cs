@@ -1,12 +1,3 @@
-using System;
-using System.IO;
-using System.Net.Http;
-using System.Reflection;
-using System.Threading.Tasks;
-using NuGet.Configuration;
-using NuGet.Protocol;
-using NuGet.Protocol.Core.Types;
-
 namespace BaGet.Tests
 {
     public class TestableHttpSource : HttpSource

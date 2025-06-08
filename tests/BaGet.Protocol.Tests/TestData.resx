@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
-    Microsoft ResX Schema 
-    
+  <!--
+    Microsoft ResX Schema
+
     Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
     associated with the data types.
-    
+
     Example:
-    
+
     ... ado.net/XML headers & schema ...
     <resheader name="resmimetype">text/microsoft-resx</resheader>
     <resheader name="version">2.0</resheader>
@@ -26,36 +26,36 @@
         <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
         <comment>This is a comment</comment>
     </data>
-                
-    There are any number of "resheader" rows that contain simple 
+
+    There are any number of "resheader" rows that contain simple
     name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
     mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
     extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
     read any of the formats listed below.
-    
+
     mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
-    
+
     mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
             : and then encoded with base64 encoding.
 
     mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
+    value   : The object must be serialized into a byte array
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
@@ -368,105 +368,109 @@
   </data>
   <data name="PackageDetailsCatalogLeaf" xml:space="preserve">
     <value>{
-  "@id": "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.1.0.0.json",
-  "@type": [
-    "PackageDetails",
-    "catalog:Permalink"
-  ],
-  "authors": "Package Author",
-  "catalog:commitId": "c088ef83-7dd6-4d24-86e8-85e3089d2c3b",
-  "catalog:commitTimeStamp": "2010-01-05T00:00:00.000Z",
-  "created": "2010-01-05T00:00:00.000Z",
-  "description": "Package description",
-  "iconUrl": "http://test.example/icon.png",
-  "id": "Test.Package",
-  "isPrerelease": false,
-  "lastEdited": "2010-01-05T00:00:00.000Z",
-  "licenseFile": "License.txt",
-  "licenseUrl": "https://test.example/license",
-  "listed": true,
-  "packageHash": "abc",
-  "packageHashAlgorithm": "SHA512",
-  "packageSize": 100,
-  "projectUrl": "https://test.example/project",
-  "published": "2010-01-05T00:00:00.000Z",
-  "requireLicenseAcceptance": true,
-  "verbatimVersion": "1.0.0",
-  "version": "1.0.0",
-  "dependencyGroups": [
-    {
-      "@id": "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.1.0.0.json#dependencygroup/.netstandard2.0",
+      "@id": "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.1.0.0.json",
+      "@type": [
+      "PackageDetails",
+      "catalog:Permalink"
+      ],
+      "authors": "Package Author",
+      "catalog:commitId": "c088ef83-7dd6-4d24-86e8-85e3089d2c3b",
+      "catalog:commitTimeStamp": "2010-01-05T00:00:00.000Z",
+      "created": "2010-01-05T00:00:00.000Z",
+      "description": "Package description",
+      "iconUrl": "http://test.example/icon.png",
+      "id": "Test.Package",
+      "isPrerelease": false,
+      "lastEdited": "2010-01-05T00:00:00.000Z",
+      "licenseFile": "License.txt",
+      "licenseUrl": "https://test.example/license",
+      "listed": true,
+      "packageHash": "abc",
+      "packageHashAlgorithm": "SHA512",
+      "packageSize": 100,
+      "projectUrl": "https://test.example/project",
+      "published": "2010-01-05T00:00:00.000Z",
+      "requireLicenseAcceptance": true,
+      "verbatimVersion": "1.0.0",
+      "version": "1.0.0",
+      "dependencyGroups": [
+      {
+      "@id":
+      "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.1.0.0.json#dependencygroup/.net9.0",
       "@type": "PackageDependencyGroup",
       "dependencies": [
-        {
-          "@id": "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.1.0.0.json#dependencygroup/.netstandard2.0/test.dependency",
-          "@type": "PackageDependency",
-          "id": "Test.Dependency",
-          "range": "[2.0.0, )"
-        }
+      {
+      "@id":
+      "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.1.0.0.json#dependencygroup/.net9.0/test.dependency",
+      "@type": "PackageDependency",
+      "id": "Test.Dependency",
+      "range": "[2.0.0, )"
+      }
       ],
-      "targetFramework": ".NETStandard2.0"
-    }
-  ],
-  "packageEntries": [
-    {
-      "@id": "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.1.0.0.json#Test.Package.nuspec",
+      "targetFramework": ".net9.0"
+      }
+      ],
+      "packageEntries": [
+      {
+      "@id":
+      "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.1.0.0.json#Test.Package.nuspec",
       "@type": "PackageEntry",
       "compressedLength": 100,
       "fullName": "Test.Package.nuspec",
       "length": 100,
       "name": "Test.Package.nuspec"
-    },
-    {
-      "@id": "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.1.0.0.json#lib/netstandard2.0/Test.Package.dll",
+      },
+      {
+      "@id":
+      "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.1.0.0.json#lib/net9.0/Test.Package.dll",
       "@type": "PackageEntry",
       "compressedLength": 100,
-      "fullName": "lib/netstandard2.0/Test.Package.dll",
+      "fullName": "lib/net9.0/Test.Package.dll",
       "length": 100,
       "name": "Test.Package.dll"
-    }
-  ],
-  "@context": {
-    "@vocab": "http://schema.nuget.org/schema#",
-    "catalog": "http://schema.nuget.org/catalog#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "dependencies": {
+      }
+      ],
+      "@context": {
+      "@vocab": "http://schema.nuget.org/schema#",
+      "catalog": "http://schema.nuget.org/catalog#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "dependencies": {
       "@id": "dependency",
       "@container": "@set"
-    },
-    "dependencyGroups": {
+      },
+      "dependencyGroups": {
       "@id": "dependencyGroup",
       "@container": "@set"
-    },
-    "packageEntries": {
+      },
+      "packageEntries": {
       "@id": "packageEntry",
       "@container": "@set"
-    },
-    "supportedFrameworks": {
+      },
+      "supportedFrameworks": {
       "@id": "supportedFramework",
       "@container": "@set"
-    },
-    "tags": {
+      },
+      "tags": {
       "@id": "tag",
       "@container": "@set"
-    },
-    "published": {
+      },
+      "published": {
       "@type": "xsd:dateTime"
-    },
-    "created": {
+      },
+      "created": {
       "@type": "xsd:dateTime"
-    },
-    "lastEdited": {
+      },
+      "lastEdited": {
       "@type": "xsd:dateTime"
-    },
-    "catalog:commitTimeStamp": {
+      },
+      "catalog:commitTimeStamp": {
       "@type": "xsd:dateTime"
-    },
-    "reasons": {
+      },
+      "reasons": {
       "@container": "@set"
-    }
-  }
-}</value>
+      }
+      }
+      }</value>
   </data>
   <data name="PackageDetailsCatalogLeafUrl" xml:space="preserve">
     <value>https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.1.0.0.json</value>
@@ -476,249 +480,258 @@
   </data>
   <data name="RegistrationIndexInlinedItems" xml:space="preserve">
     <value>{
-  "@id": "https://api.nuget.org/v3/registration3-gz-semver2/newtonsoft.json/index.json",
-  "@type": [
-    "catalog:CatalogRoot",
-    "PackageRegistration",
-    "catalog:Permalink"
-  ],
-  "commitId": "c088ef83-7dd6-4d24-86e8-85e3089d2c3b",
-  "commitTimeStamp": "2010-01-05T00:00:00.000Z",
-  "count": 2,
-  "items": [
-    {
+      "@id": "https://api.nuget.org/v3/registration3-gz-semver2/newtonsoft.json/index.json",
+      "@type": [
+      "catalog:CatalogRoot",
+      "PackageRegistration",
+      "catalog:Permalink"
+      ],
+      "commitId": "c088ef83-7dd6-4d24-86e8-85e3089d2c3b",
+      "commitTimeStamp": "2010-01-05T00:00:00.000Z",
+      "count": 2,
+      "items": [
+      {
       "@id": "https://test.example/v3/metadata/test.package/index.json#page/1.0.0/1.0.0",
       "@type": "catalog:CatalogPage",
       "commitId": "c088ef83-7dd6-4d24-86e8-85e3089d2c3b",
       "commitTimeStamp": "2010-01-05T00:00:00.000Z",
       "count": 1,
       "items": [
-        {
-          "@id": "https://test.example/v3/metadata/test.package/1.0.0.json",
-          "@type": "Package",
-          "commitId": "c088ef83-7dd6-4d24-86e8-85e3089d2c3b",
-          "commitTimeStamp": "2010-01-05T00:00:00.000Z",
-          "catalogEntry": {
-            "@id": "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.1.0.0.json",
-            "@type": "PackageDetails",
-            "authors": "Test Author",
-            "dependencyGroups": [
-              {
-                "@id": "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.1.0.0.json#dependencygroup/.netstandard2.0",
-                "@type": "PackageDependencyGroup",
-                "dependencies": [
-                  {
-                    "@id": "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.1.0.0.json#dependencygroup/.netstandard2.0/test.dependency",
-                    "@type": "PackageDependency",
-                    "id": "Test.Dependency",
-                    "range": "[2.0.0, )"
-                  }
-                ],
-                "targetFramework": ".NETStandard2.0"
-              },
-              {
-                "@id": "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.1.0.0.json#dependencygroup/.netstandard2.0",
-                "@type": "PackageDependencyGroup",
-                "targetFramework": ".NETFramework4.8"
-              }
-            ],
-            "description": "Package description",
-            "iconUrl": "https://test.example/icon.png",
-            "id": "Test.Package",
-            "language": "Test Language",
-            "licenseExpression": "MIT",
-            "licenseUrl": "https://test.example/license",
-            "listed": true,
-            "minClientVersion": "2.12",
-            "packageContent": "https://test.example/content/test.package/1.0.0/test.package.1.0.0.nupkg",
-            "projectUrl": "https://test.example/project",
-            "published": "2010-01-05T00:00:00.000Z",
-            "requireLicenseAcceptance": false,
-            "summary": "",
-            "tags": [
-              "test",
-              "package"
-            ],
-            "title": "Test.Package",
-            "version": "1.0.0"
-          },
-          "packageContent": "https://test.example/content/test.package/1.0.0/test.package.1.0.0.nupkg",
-          "registration": "https://test.example/metadata/test.package/index.json"
-        }
+      {
+      "@id": "https://test.example/v3/metadata/test.package/1.0.0.json",
+      "@type": "Package",
+      "commitId": "c088ef83-7dd6-4d24-86e8-85e3089d2c3b",
+      "commitTimeStamp": "2010-01-05T00:00:00.000Z",
+      "catalogEntry": {
+      "@id": "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.1.0.0.json",
+      "@type": "PackageDetails",
+      "authors": "Test Author",
+      "dependencyGroups": [
+      {
+      "@id":
+      "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.1.0.0.json#dependencygroup/.net9.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+      {
+      "@id":
+      "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.1.0.0.json#dependencygroup/.net9.0/test.dependency",
+      "@type": "PackageDependency",
+      "id": "Test.Dependency",
+      "range": "[2.0.0, )"
+      }
+      ],
+      "targetFramework": ".net9.0"
+      },
+      {
+      "@id":
+      "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.1.0.0.json#dependencygroup/.net9.0",
+      "@type": "PackageDependencyGroup",
+      "targetFramework": ".NETFramework4.8"
+      }
+      ],
+      "description": "Package description",
+      "iconUrl": "https://test.example/icon.png",
+      "id": "Test.Package",
+      "language": "Test Language",
+      "licenseExpression": "MIT",
+      "licenseUrl": "https://test.example/license",
+      "listed": true,
+      "minClientVersion": "2.12",
+      "packageContent": "https://test.example/content/test.package/1.0.0/test.package.1.0.0.nupkg",
+      "projectUrl": "https://test.example/project",
+      "published": "2010-01-05T00:00:00.000Z",
+      "requireLicenseAcceptance": false,
+      "summary": "",
+      "tags": [
+      "test",
+      "package"
+      ],
+      "title": "Test.Package",
+      "version": "1.0.0"
+      },
+      "packageContent": "https://test.example/content/test.package/1.0.0/test.package.1.0.0.nupkg",
+      "registration": "https://test.example/metadata/test.package/index.json"
+      }
       ],
       "parent": "https://test.example/v3/metadata/test.package/index.json",
       "lower": "1.0.0",
       "upper": "1.0.0"
-    },
-    {
+      },
+      {
       "@id": "https://test.example/v3/metadata/test.package/index.json#page/2.0.0/3.0.0",
       "@type": "catalog:CatalogPage",
       "commitId": "c088ef83-7dd6-4d24-86e8-85e3089d2c3b",
       "commitTimeStamp": "2010-01-05T00:00:00.000Z",
       "count": 2,
       "items": [
-        {
-          "@id": "https://test.example/v3/metadata/test.package/2.0.0.json",
-          "@type": "Package",
-          "commitId": "c088ef83-7dd6-4d24-86e8-85e3089d2c3b",
-          "commitTimeStamp": "2010-01-05T00:00:00.000Z",
-          "catalogEntry": {
-            "@id": "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.2.0.0.json",
-            "@type": "PackageDetails",
-            "authors": "Test Author",
-            "dependencyGroups": [
-              {
-                "@id": "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.2.0.0.json#dependencygroup/.netstandard2.0",
-                "@type": "PackageDependencyGroup",
-                "dependencies": [
-                  {
-                    "@id": "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.2.0.0.json#dependencygroup/.netstandard2.0/test.dependency",
-                    "@type": "PackageDependency",
-                    "id": "Test.Dependency",
-                    "range": "[2.0.0, )"
-                  }
-                ],
-                "targetFramework": ".NETStandard2.0"
-              },
-              {
-                "@id": "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.2.0.0.json#dependencygroup/.netstandard2.0",
-                "@type": "PackageDependencyGroup",
-                "targetFramework": ".NETFramework4.8"
-              }
-            ],
-            "description": "Package description",
-            "iconUrl": "http://test.example/icon.png",
-            "id": "Test.Package",
-            "language": "Test Language",
-            "licenseExpression": "MIT",
-            "licenseUrl": "https://test.example/license",
-            "listed": true,
-            "minClientVersion": "2.12",
-            "packageContent": "https://test.example/content/test.package/1.0.0/test.package.2.0.0.nupkg",
-            "projectUrl": "https://test.example/project",
-            "published": "2010-01-05T00:00:00.000Z",
-            "requireLicenseAcceptance": false,
-            "summary": "",
-            "tags": [
-              "test",
-              "package"
-            ],
-            "title": "Test.Package",
-            "version": "2.0.0+build"
-          },
-          "packageContent": "https://test.example/content/test.package/2.0.0/test.package.2.0.0.nupkg",
-          "registration": "https://test.example/metadata/test.package/index.json"
-        },
-        {
-          "@id": "https://test.example/v3/metadata/test.package/3.0.0.json",
-          "@type": "Package",
-          "commitId": "c088ef83-7dd6-4d24-86e8-85e3089d2c3b",
-          "commitTimeStamp": "2010-01-05T00:00:00.000Z",
-          "catalogEntry": {
-            "@id": "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.3.0.0.json",
-            "@type": "PackageDetails",
-            "authors": "Test Author",
-            "dependencyGroups": [
-              {
-                "@id": "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.3.0.0.json#dependencygroup/.netstandard2.0",
-                "@type": "PackageDependencyGroup",
-                "dependencies": [
-                  {
-                    "@id": "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.3.0.0.json#dependencygroup/.netstandard2.0/test.dependency",
-                    "@type": "PackageDependency",
-                    "id": "Test.Dependency",
-                    "range": "[2.0.0, )"
-                  }
-                ],
-                "targetFramework": ".NETStandard2.0"
-              },
-              {
-                "@id": "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.3.0.0.json#dependencygroup/.netstandard2.0",
-                "@type": "PackageDependencyGroup",
-                "targetFramework": ".NETFramework4.8"
-              }
-            ],
-            "description": "Package description",
-            "iconUrl": "http://test.example/icon.png",
-            "id": "Test.Package",
-            "language": "Test Language",
-            "licenseExpression": "MIT",
-            "licenseUrl": "https://test.example/license",
-            "listed": true,
-            "minClientVersion": "2.12",
-            "packageContent": "https://test.example/content/test.package/1.0.0/test.package.3.0.0.nupkg",
-            "projectUrl": "https://test.example/project",
-            "published": "2010-01-05T00:00:00.000Z",
-            "requireLicenseAcceptance": false,
-            "summary": "",
-            "tags": [
-              "test",
-              "package"
-            ],
-            "title": "Test.Package",
-            "version": "3.0.0"
-          },
-          "packageContent": "https://test.example/content/test.package/3.0.0/test.package.3.0.0.nupkg",
-          "registration": "https://test.example/metadata/test.package/index.json"
-        }
+      {
+      "@id": "https://test.example/v3/metadata/test.package/2.0.0.json",
+      "@type": "Package",
+      "commitId": "c088ef83-7dd6-4d24-86e8-85e3089d2c3b",
+      "commitTimeStamp": "2010-01-05T00:00:00.000Z",
+      "catalogEntry": {
+      "@id": "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.2.0.0.json",
+      "@type": "PackageDetails",
+      "authors": "Test Author",
+      "dependencyGroups": [
+      {
+      "@id":
+      "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.2.0.0.json#dependencygroup/.net9.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+      {
+      "@id":
+      "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.2.0.0.json#dependencygroup/.net9.0/test.dependency",
+      "@type": "PackageDependency",
+      "id": "Test.Dependency",
+      "range": "[2.0.0, )"
+      }
+      ],
+      "targetFramework": ".net9.0"
+      },
+      {
+      "@id":
+      "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.2.0.0.json#dependencygroup/.net9.0",
+      "@type": "PackageDependencyGroup",
+      "targetFramework": ".NETFramework4.8"
+      }
+      ],
+      "description": "Package description",
+      "iconUrl": "http://test.example/icon.png",
+      "id": "Test.Package",
+      "language": "Test Language",
+      "licenseExpression": "MIT",
+      "licenseUrl": "https://test.example/license",
+      "listed": true,
+      "minClientVersion": "2.12",
+      "packageContent": "https://test.example/content/test.package/1.0.0/test.package.2.0.0.nupkg",
+      "projectUrl": "https://test.example/project",
+      "published": "2010-01-05T00:00:00.000Z",
+      "requireLicenseAcceptance": false,
+      "summary": "",
+      "tags": [
+      "test",
+      "package"
+      ],
+      "title": "Test.Package",
+      "version": "2.0.0+build"
+      },
+      "packageContent": "https://test.example/content/test.package/2.0.0/test.package.2.0.0.nupkg",
+      "registration": "https://test.example/metadata/test.package/index.json"
+      },
+      {
+      "@id": "https://test.example/v3/metadata/test.package/3.0.0.json",
+      "@type": "Package",
+      "commitId": "c088ef83-7dd6-4d24-86e8-85e3089d2c3b",
+      "commitTimeStamp": "2010-01-05T00:00:00.000Z",
+      "catalogEntry": {
+      "@id": "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.3.0.0.json",
+      "@type": "PackageDetails",
+      "authors": "Test Author",
+      "dependencyGroups": [
+      {
+      "@id":
+      "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.3.0.0.json#dependencygroup/.net9.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+      {
+      "@id":
+      "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.3.0.0.json#dependencygroup/.net9.0/test.dependency",
+      "@type": "PackageDependency",
+      "id": "Test.Dependency",
+      "range": "[2.0.0, )"
+      }
+      ],
+      "targetFramework": ".net9.0"
+      },
+      {
+      "@id":
+      "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.3.0.0.json#dependencygroup/.net9.0",
+      "@type": "PackageDependencyGroup",
+      "targetFramework": ".NETFramework4.8"
+      }
+      ],
+      "description": "Package description",
+      "iconUrl": "http://test.example/icon.png",
+      "id": "Test.Package",
+      "language": "Test Language",
+      "licenseExpression": "MIT",
+      "licenseUrl": "https://test.example/license",
+      "listed": true,
+      "minClientVersion": "2.12",
+      "packageContent": "https://test.example/content/test.package/1.0.0/test.package.3.0.0.nupkg",
+      "projectUrl": "https://test.example/project",
+      "published": "2010-01-05T00:00:00.000Z",
+      "requireLicenseAcceptance": false,
+      "summary": "",
+      "tags": [
+      "test",
+      "package"
+      ],
+      "title": "Test.Package",
+      "version": "3.0.0"
+      },
+      "packageContent": "https://test.example/content/test.package/3.0.0/test.package.3.0.0.nupkg",
+      "registration": "https://test.example/metadata/test.package/index.json"
+      }
       ],
       "parent": "https://test.example/v3/metadata/test.package/index.json",
       "lower": "2.0.0",
       "upper": "3.0.0"
-    }
-  ],
-  "@context": {
-    "@vocab": "http://schema.nuget.org/schema#",
-    "catalog": "http://schema.nuget.org/catalog#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "items": {
+      }
+      ],
+      "@context": {
+      "@vocab": "http://schema.nuget.org/schema#",
+      "catalog": "http://schema.nuget.org/catalog#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "items": {
       "@id": "catalog:item",
       "@container": "@set"
-    },
-    "commitTimeStamp": {
+      },
+      "commitTimeStamp": {
       "@id": "catalog:commitTimeStamp",
       "@type": "xsd:dateTime"
-    },
-    "commitId": {
+      },
+      "commitId": {
       "@id": "catalog:commitId"
-    },
-    "count": {
+      },
+      "count": {
       "@id": "catalog:count"
-    },
-    "parent": {
+      },
+      "parent": {
       "@id": "catalog:parent",
       "@type": "@id"
-    },
-    "tags": {
+      },
+      "tags": {
       "@container": "@set",
       "@id": "tag"
-    },
-    "reasons": {
+      },
+      "reasons": {
       "@container": "@set"
-    },
-    "packageTargetFrameworks": {
+      },
+      "packageTargetFrameworks": {
       "@container": "@set",
       "@id": "packageTargetFramework"
-    },
-    "dependencyGroups": {
+      },
+      "dependencyGroups": {
       "@container": "@set",
       "@id": "dependencyGroup"
-    },
-    "dependencies": {
+      },
+      "dependencies": {
       "@container": "@set",
       "@id": "dependency"
-    },
-    "packageContent": {
+      },
+      "packageContent": {
       "@type": "@id"
-    },
-    "published": {
+      },
+      "published": {
       "@type": "xsd:dateTime"
-    },
-    "registration": {
+      },
+      "registration": {
       "@type": "@id"
-    }
-  }
-}</value>
+      }
+      }
+      }</value>
   </data>
   <data name="RegistrationIndexInlinedItemsUrl" xml:space="preserve">
     <value>https://test.example/v3/metadata/test.package/index.json</value>
@@ -878,172 +891,182 @@
   </data>
   <data name="RegistrationPage" xml:space="preserve">
     <value>{
-  "@id": "https://test.example/v3/metadata/paged.package/page/2.0.0/3.0.0.json",
-  "@type": "catalog:CatalogPage",
-  "commitId": "c088ef83-7dd6-4d24-86e8-85e3089d2c3b",
-  "commitTimeStamp": "2010-01-05T00:00:00.000Z",
-  "count": 2,
-  "lower": "2.0.0",
-  "parent": "https://test.example/v3/metadata/paged.package/index.json",
-  "upper": "3.0.0",
-  "items": [
-    {
+      "@id": "https://test.example/v3/metadata/paged.package/page/2.0.0/3.0.0.json",
+      "@type": "catalog:CatalogPage",
+      "commitId": "c088ef83-7dd6-4d24-86e8-85e3089d2c3b",
+      "commitTimeStamp": "2010-01-05T00:00:00.000Z",
+      "count": 2,
+      "lower": "2.0.0",
+      "parent": "https://test.example/v3/metadata/paged.package/index.json",
+      "upper": "3.0.0",
+      "items": [
+      {
       "@id": "https://test.example/v3/metadata/paged.package/2.0.0.json",
       "@type": "Package",
       "commitId": "c088ef83-7dd6-4d24-86e8-85e3089d2c3b",
       "commitTimeStamp": "2010-01-05T00:00:00.000Z",
       "catalogEntry": {
-        "@id": "https://test.example/v3/catalog/2010.01.05.00.00.00/paged.package.2.0.0.json",
-        "@type": "PackageDetails",
-        "authors": "Package Authors",
-        "dependencyGroups": [
-          {
-            "@id": "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.1.0.0.json#dependencygroup/.netstandard2.0",
-            "@type": "PackageDependencyGroup",
-            "dependencies": [
-              {
-                "@id": "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.1.0.0.json#dependencygroup/.netstandard2.0/test.dependency",
-                "@type": "PackageDependency",
-                "id": "Test.Dependency",
-                "range": "[2.0.0, )"
-              }
-            ],
-            "targetFramework": ".NETStandard2.0"
-          },
-          {
-            "@id": "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.1.0.0.json#dependencygroup/.netstandard2.0",
-            "@type": "PackageDependencyGroup",
-            "targetFramework": ".NETFramework4.8"
-          }
-        ],
-        "description": "Package Description",
-        "iconUrl": "https://test.example/icon.png",
-        "id": "Paged.Package",
-        "language": "Package language",
-        "licenseExpression": "Package license",
-        "licenseUrl": "https://test.example/license",
-        "listed": false,
-        "minClientVersion": "",
-        "packageContent": "https://test.example/v3/content/paged.package/2.0.0/paged.package.2.0.0.nupkg",
-        "projectUrl": "https://test.example/project",
-        "published": "2010-01-05T00:00:00.000Z",
-        "requireLicenseAcceptance": false,
-        "summary": "Package summary",
-        "tags": [
-          "Paged",
-          "Package"
-        ],
-        "title": "Packaged.Package",
-        "version": "2.0.0+build"
+      "@id": "https://test.example/v3/catalog/2010.01.05.00.00.00/paged.package.2.0.0.json",
+      "@type": "PackageDetails",
+      "authors": "Package Authors",
+      "dependencyGroups": [
+      {
+      "@id":
+      "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.1.0.0.json#dependencygroup/.net9.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+      {
+      "@id":
+      "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.1.0.0.json#dependencygroup/.net9.0/test.dependency",
+      "@type": "PackageDependency",
+      "id": "Test.Dependency",
+      "range": "[2.0.0, )"
+      }
+      ],
+      "targetFramework": ".net9.0"
       },
-      "packageContent": "https://test.example/v3/content/paged.package/2.0.0/paged.package.2.0.0.nupkg",
+      {
+      "@id":
+      "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.1.0.0.json#dependencygroup/.net9.0",
+      "@type": "PackageDependencyGroup",
+      "targetFramework": ".NETFramework4.8"
+      }
+      ],
+      "description": "Package Description",
+      "iconUrl": "https://test.example/icon.png",
+      "id": "Paged.Package",
+      "language": "Package language",
+      "licenseExpression": "Package license",
+      "licenseUrl": "https://test.example/license",
+      "listed": false,
+      "minClientVersion": "",
+      "packageContent":
+      "https://test.example/v3/content/paged.package/2.0.0/paged.package.2.0.0.nupkg",
+      "projectUrl": "https://test.example/project",
+      "published": "2010-01-05T00:00:00.000Z",
+      "requireLicenseAcceptance": false,
+      "summary": "Package summary",
+      "tags": [
+      "Paged",
+      "Package"
+      ],
+      "title": "Packaged.Package",
+      "version": "2.0.0+build"
+      },
+      "packageContent":
+      "https://test.example/v3/content/paged.package/2.0.0/paged.package.2.0.0.nupkg",
       "registration": "https://test.example/v3/metadata/paged.package/index.json"
-    },
-    {
+      },
+      {
       "@id": "https://test.example/v3/metadata/paged.package/3.0.0.json",
       "@type": "Package",
       "commitId": "c088ef83-7dd6-4d24-86e8-85e3089d2c3b",
       "commitTimeStamp": "2010-01-05T00:00:00.000Z",
       "catalogEntry": {
-        "@id": "https://test.example/v3/catalog/2010.01.05.00.00.00/paged.package.3.0.0.json",
-        "@type": "PackageDetails",
-        "authors": "Package Authors",
-        "dependencyGroups": [
-          {
-            "@id": "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.1.0.0.json#dependencygroup/.netstandard2.0",
-            "@type": "PackageDependencyGroup",
-            "dependencies": [
-              {
-                "@id": "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.1.0.0.json#dependencygroup/.netstandard2.0/test.dependency",
-                "@type": "PackageDependency",
-                "id": "Test.Dependency",
-                "range": "[2.0.0, )"
-              }
-            ],
-            "targetFramework": ".NETStandard2.0"
-          },
-          {
-            "@id": "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.1.0.0.json#dependencygroup/.netstandard2.0",
-            "@type": "PackageDependencyGroup",
-            "targetFramework": ".NETFramework4.8"
-          }
-        ],
-        "description": "Package Description",
-        "iconUrl": "https://test.example/icon.png",
-        "id": "Paged.Package",
-        "language": "Package language",
-        "licenseExpression": "Package license",
-        "licenseUrl": "https://test.example/license",
-        "listed": true,
-        "minClientVersion": "",
-        "packageContent": "https://test.example/v3/content/paged.package/3.0.0/paged.package.3.0.0.nupkg",
-        "projectUrl": "https://test.example/project",
-        "published": "2010-01-05T00:00:00.000Z",
-        "requireLicenseAcceptance": false,
-        "summary": "Package summary",
-        "tags": [
-          "Paged",
-          "Package"
-        ],
-        "title": "Packaged.Package",
-        "version": "3.0.0"
+      "@id": "https://test.example/v3/catalog/2010.01.05.00.00.00/paged.package.3.0.0.json",
+      "@type": "PackageDetails",
+      "authors": "Package Authors",
+      "dependencyGroups": [
+      {
+      "@id":
+      "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.1.0.0.json#dependencygroup/.net9.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+      {
+      "@id":
+      "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.1.0.0.json#dependencygroup/.net9.0/test.dependency",
+      "@type": "PackageDependency",
+      "id": "Test.Dependency",
+      "range": "[2.0.0, )"
+      }
+      ],
+      "targetFramework": ".net9.0"
       },
-      "packageContent": "https://test.example/v3/content/paged.package/3.0.0/paged.package.3.0.0.nupkg",
+      {
+      "@id":
+      "https://test.example/v3/catalog/2010.01.05.00.00.00/test.package.1.0.0.json#dependencygroup/.net9.0",
+      "@type": "PackageDependencyGroup",
+      "targetFramework": ".NETFramework4.8"
+      }
+      ],
+      "description": "Package Description",
+      "iconUrl": "https://test.example/icon.png",
+      "id": "Paged.Package",
+      "language": "Package language",
+      "licenseExpression": "Package license",
+      "licenseUrl": "https://test.example/license",
+      "listed": true,
+      "minClientVersion": "",
+      "packageContent":
+      "https://test.example/v3/content/paged.package/3.0.0/paged.package.3.0.0.nupkg",
+      "projectUrl": "https://test.example/project",
+      "published": "2010-01-05T00:00:00.000Z",
+      "requireLicenseAcceptance": false,
+      "summary": "Package summary",
+      "tags": [
+      "Paged",
+      "Package"
+      ],
+      "title": "Packaged.Package",
+      "version": "3.0.0"
+      },
+      "packageContent":
+      "https://test.example/v3/content/paged.package/3.0.0/paged.package.3.0.0.nupkg",
       "registration": "https://test.example/v3/metadata/paged.package/index.json"
-    }
-  ],
-  "@context": {
-    "@vocab": "http://schema.nuget.org/schema#",
-    "catalog": "http://schema.nuget.org/catalog#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "items": {
+      }
+      ],
+      "@context": {
+      "@vocab": "http://schema.nuget.org/schema#",
+      "catalog": "http://schema.nuget.org/catalog#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "items": {
       "@id": "catalog:item",
       "@container": "@set"
-    },
-    "commitTimeStamp": {
+      },
+      "commitTimeStamp": {
       "@id": "catalog:commitTimeStamp",
       "@type": "xsd:dateTime"
-    },
-    "commitId": {
+      },
+      "commitId": {
       "@id": "catalog:commitId"
-    },
-    "count": {
+      },
+      "count": {
       "@id": "catalog:count"
-    },
-    "parent": {
+      },
+      "parent": {
       "@id": "catalog:parent",
       "@type": "@id"
-    },
-    "tags": {
+      },
+      "tags": {
       "@container": "@set",
       "@id": "tag"
-    },
-    "reasons": {
+      },
+      "reasons": {
       "@container": "@set"
-    },
-    "packageTargetFrameworks": {
+      },
+      "packageTargetFrameworks": {
       "@container": "@set",
       "@id": "packageTargetFramework"
-    },
-    "dependencyGroups": {
+      },
+      "dependencyGroups": {
       "@container": "@set",
       "@id": "dependencyGroup"
-    },
-    "dependencies": {
+      },
+      "dependencies": {
       "@container": "@set",
       "@id": "dependency"
-    },
-    "packageContent": {
+      },
+      "packageContent": {
       "@type": "@id"
-    },
-    "published": {
+      },
+      "published": {
       "@type": "xsd:dateTime"
-    },
-    "registration": {
+      },
+      "registration": {
       "@type": "@id"
-    }
-  }
-}</value>
+      }
+      }
+      }</value>
   </data>
   <data name="RegistrationPageUrl" xml:space="preserve">
     <value>https://test.example/v3/metadata/paged.package/page/2.0.0/3.0.0.json</value>

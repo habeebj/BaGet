@@ -1,7 +1,3 @@
-using System;
-using Microsoft.Extensions.Logging;
-using Xunit.Abstractions;
-
 namespace BaGet.Tests
 {
     // Based off:

@@ -1,7 +1,4 @@
-﻿using System.IO;
-using Newtonsoft.Json;
-
-namespace BaGet.Tests
+﻿namespace BaGet.Tests
 {
     public static class StreamExtensions
     {

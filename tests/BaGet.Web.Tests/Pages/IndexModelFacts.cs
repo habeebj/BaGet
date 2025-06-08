@@ -1,11 +1,4 @@
-﻿using System.Threading;
-using System.Threading.Tasks;
-using BaGet.Core;
-using BaGet.Protocol.Models;
-using Moq;
-using Xunit;
-
-namespace BaGet.Web.Tests
+﻿namespace BaGet.Web.Tests
 {
     public class IndexModelFacts
     {

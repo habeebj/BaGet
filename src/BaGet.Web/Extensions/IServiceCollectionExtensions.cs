@@ -12,15 +12,16 @@ namespace BaGet
             this IServiceCollection services,
             Action<BaGetApplication> configureAction)
         {
-            services
-                .AddRouting(options => options.LowercaseUrls = true)
-                .AddControllers()
-                .AddApplicationPart(typeof(PackageContentController).Assembly)
-                .SetCompatibilityVersion(CompatibilityVersion.Version_3_0)
-                .AddJsonOptions(options =>
-                {
-                    options.JsonSerializerOptions.IgnoreNullValues = true;
-                });
+            services.AddControllers();
+            // services
+            //     .AddRouting(options => options.LowercaseUrls = true)
+            //     .AddControllers()
+            //     .AddApplicationPart(typeof(PackageContentController).Assembly)
+            //     .SetCompatibilityVersion(CompatibilityVersion.Version_3_0)
+            //     .AddJsonOptions(options =>
+            //     {
+            //         options.JsonSerializerOptions.IgnoreNullValues = true;
+            //     });
 
             services.AddRazorPages();
 
