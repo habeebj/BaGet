@@ -20,4 +20,7 @@
     <ProjectReference Include="..\BaGet.Web\BaGet.Web.csproj" />
     <ProjectReference Include="..\BaGet.Protocol\BaGet.Protocol.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="db\.gitkeep" CopyToOutputDirectory="Always" />
+  </ItemGroup>
 </Project>

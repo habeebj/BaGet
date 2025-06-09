@@ -1,10 +1,12 @@
 # Please refer https://aka.ms/HTTPSinContainer on how to setup an https developer certificate for your ASP.NET Core service.
-
 services:
   baget:
-    image: baget
     build:
       context: .
       dockerfile: src/BaGet/Dockerfile
     ports:
-      - 5002:80
+      - "5101:8080"
+    volumes:
+      - ./db:/app/db
+      - ./packages:/app/packages
+    restart: unless-stopped
